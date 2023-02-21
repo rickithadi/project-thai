@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React  from "react";
 
 import ss from "../images/ss.png";
 import WaitlistForm from "../partials/WaitlistForm";

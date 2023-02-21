@@ -23,7 +23,7 @@ function WaitlistForm() {
         <button
           type="submit"
           disabled={state.submitting}
-          className="btn text-white bg-blue-600 hover:bg-blue-700   sm:w-auto sm:mb-0 rounded-none rounded-r-md"
+          className="btn text-white bg-[#5AA568] hover:bg-[#35613d]   sm:w-auto sm:mb-0 rounded-none rounded-r-md"
         >
           submit
         </button>
