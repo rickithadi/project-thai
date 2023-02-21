@@ -1,73 +1,57 @@
-import React, { useState } from "react";
-import Modal from "../utils/Modal";
+import React from "react";
 
-import HeroImage from "../images/hero-image.png";
-import WaitlistForm from '../partials/WaitlistForm';
+import ss from "../images/ss.png";
+import WaitlistForm from "../partials/WaitlistForm";
 
 function HeroHome() {
-  const [videoModalOpen, setVideoModalOpen] = useState(false);
-
   return (
     <section className="relative">
       {/* Illustration behind hero content */}
-      <div
-        className="absolute left-1/2 transform -translate-x-1/2 bottom-0 pointer-events-none"
-        aria-hidden="true"
-      >
-        <svg
-          width="1360"
-          height="578"
-          viewBox="0 0 1360 578"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <defs>
-            <linearGradient
-              x1="50%"
-              y1="0%"
-              x2="50%"
-              y2="100%"
-              id="illustration-01"
-            >
-              <stop stopColor="#FFF" offset="0%" />
-              <stop stopColor="#EAEAEA" offset="77.402%" />
-              <stop stopColor="#DFDFDF" offset="100%" />
-            </linearGradient>
-          </defs>
-          <g fill="url(#illustration-01)" fillRule="evenodd">
-            <circle cx="1232" cy="128" r="128" />
-            <circle cx="155" cy="443" r="64" />
-          </g>
-        </svg>
-      </div>
 
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        {/* Hero content */}
-        <div className="pt-32 pb-12 md:pt-40 md:pb-20">
-          {/* Section header */}
-          <div className="text-center pb-12 md:pb-16">
-            <h1
-              className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4"
-              data-aos="zoom-y-out"
+      {/* Hero content */}
+      <div className="pt-20 pb-12 md:pt-20 md:pb-20 mx-auto ">
+        <div className="md:grid md:grid-cols-12  mx-auto h-full md:h-[70vh]">
+          <div className=" text-center  bg-[#FFFBF9]  max-w-xl md:max-w-none md:w-full mx-auto md:col-span-6 lg:col-span-6 mb-8 md:mb-0 md:order-1 aos-init -m-4">
+            <div
+              className=" px-10 md:py-32 pt-16
+            "
             >
-              The app for &#8203;
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">
-               genuine connections
-              </span>
-            </h1>
-            <div className="max-w-3xl mx-auto">
+              <h2
+                className="text-5xl
+                text-left text-[#5AA568] mb-9
+                font-bold
+                leading-snug
+                "
+              >
+                Budding, the app for social gatherings
+              </h2>
               <p
-                className="text-xl text-gray-600 mb-8"
+                className="text-left text-xl text-gray-600 mb-8"
                 data-aos="zoom-y-out"
                 data-aos-delay="150"
               >
-             Join our waitlist to stay informed </p>
+                You are always surrounded by people who are looking for company,
+                just like you. But how do you find them? Download Budding and
+                swipe on the events you are up for.
+              </p>
 
-                  <WaitlistForm />
-
+              <WaitlistForm />
             </div>
           </div>
+          <div
+            class="
+            max-w-xl md:max-w-none md:w-full mx-auto md:col-span-6 lg:col-span-6 mb-8 md:mb-0 md:order-1 aos-init
 
-
+          "
+          >
+            <img
+              src={ss}
+              className="mx-auto h-3/4 px-10 md:h-[95vh]
+            md:py-24
+ flex items-center justify-center
+            "
+            />
+          </div>
         </div>
       </div>
     </section>

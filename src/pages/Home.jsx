@@ -20,7 +20,7 @@ function Home() {
         {/*  Page sections */}
         <HeroHome />
         <FeaturesBlocks />
-        <FeaturesHome />
+        {/* <FeaturesHome /> */}
         <Testimonials />
         {/* <Newsletter /> */}
 
