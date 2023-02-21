@@ -8,12 +8,10 @@ function HeroHome() {
     <section className="relative">
       {/* Illustration behind hero content */}
 
-
-
       {/* Hero content */}
-      <div className="pt-32 pb-12 md:pt-40 md:pb-20 mx-auto">
-         <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
-          <div className="text-center md:text-left">
+      <div className="pt-32 pb-12 md:pt-15 md:pb-20 mx-auto">
+        <div class="md:grid md:grid-cols-12 md:gap-6 mx-auto">
+          <div class=" text-center  bg-[#FFFBF9]  max-w-xl md:max-w-none md:w-full mx-auto md:col-span-6 lg:col-span-6 mb-8 md:mb-0 md:order-1 aos-init">
             <p
               className="text-xl text-gray-600 mb-8"
               data-aos="zoom-y-out"
@@ -24,7 +22,7 @@ function HeroHome() {
 
             <WaitlistForm />
           </div>
-          <div className="mx-auto">
+          <div class="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-6 lg:col-span-6 mb-8 md:mb-0 md:order-1 aos-init">
             <img src={ss} className="mx-auto" />
           </div>
         </div>
