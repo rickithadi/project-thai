@@ -44,10 +44,13 @@ function HeroHome() {
 
           "
           >
-            <img src={ss} className="mx-auto h-3/4 px-10 md:h-[95vh]
-            py-24
+            <img
+              src={ss}
+              className="mx-auto h-3/4 px-10 md:h-[95vh]
+            md:py-24
  flex items-center justify-center
-            " />
+            "
+            />
           </div>
         </div>
       </div>
