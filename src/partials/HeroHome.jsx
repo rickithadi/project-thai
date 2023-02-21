@@ -12,9 +12,12 @@ function HeroHome() {
       <div className="pt-20 pb-12 md:pt-20 md:pb-20 mx-auto">
         <div className="md:grid md:grid-cols-12 md:gap-6 mx-auto">
           <div className=" text-center  bg-[#FFFBF9]  max-w-xl md:max-w-none md:w-full mx-auto md:col-span-6 lg:col-span-6 mb-8 md:mb-0 md:order-1 aos-init -m-4">
-            <div className="py-40 px-10">
+            <div className="md:py-40 px-10 sm:py-30
+            sm:pt-30
+            ">
               <h2
-                className="text-5xl text-left text-[#5AA568] mb-8
+                className="text-5xl
+                text-left text-[#5AA568] mb-8
                 font-extrabold
                 leading-snug
                 "
