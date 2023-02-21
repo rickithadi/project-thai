@@ -18,7 +18,7 @@ function HeroHome() {
             >
               <h2
                 className="text-5xl
-                text-left text-[#5AA568] mb-8
+                text-left text-[#5AA568] mb-9
                 font-bold
                 leading-snug
                 "
