@@ -71,6 +71,7 @@ module.exports = {
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],
+        nunito: ['"Nunito Sans"', 'sans'],
       },
       fontSize: {
         xs: "0.75rem",
