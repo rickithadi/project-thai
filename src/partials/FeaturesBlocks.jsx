@@ -28,16 +28,15 @@ function FeaturesBlocks() {
                 leading-snug
                 "
                 >
-                  Budding, the app for social gatherings
+                  Host and attend events
                 </h2>
                 <p
                   className="text-left text-xl text-gray-600 mb-8"
                   data-aos="zoom-y-out"
                   data-aos-delay="150"
                 >
-                  You are always surrounded by people who are looking for
-                  company, just like you. But how do you find them? Download
-                  Budding and swipe on the events you are up for.
+                  Join or host gatherings – from a night out to a morning run,
+                  meet others while doing something you enjoy
                 </p>
               </div>
             </div>
@@ -47,7 +46,7 @@ function FeaturesBlocks() {
           </div>
         </div>
       </section>
-     <section className="relative bg-white z-20">
+      <section className="relative bg-white z-20">
         {/* Illustration behind hero content */}
 
         {/* Hero content */}
@@ -71,16 +70,16 @@ function FeaturesBlocks() {
                 leading-snug
                 "
                 >
-                  Budding, the app for social gatherings 2
+                  Meet like-minded people
                 </h2>
                 <p
                   className="text-left text-xl text-gray-600 mb-8"
                   data-aos="zoom-y-out"
                   data-aos-delay="150"
                 >
-                  You are always surrounded by people who are looking for
-                  company, just like you. But how do you find them? Download
-                  Budding and swipe on the events you are up for.
+                  Just like you, there’s always people looking to hang out. We
+                  make it easier to find others with the same interests, hobbies
+                  or mindset
                 </p>
               </div>
             </div>
@@ -108,16 +107,15 @@ function FeaturesBlocks() {
                 leading-snug
                 "
                 >
-                  Budding, the app for social gatherings
+                  Form meaningful connections
                 </h2>
                 <p
                   className="text-left text-xl text-gray-600 mb-8"
                   data-aos="zoom-y-out"
                   data-aos-delay="150"
                 >
-                  You are always surrounded by people who are looking for
-                  company, just like you. But how do you find them? Download
-                  Budding and swipe on the events you are up for.
+                  Create a lifetime of memorable experiences and plant the seeds
+                  of a Budding friendship
                 </p>
               </div>
             </div>
