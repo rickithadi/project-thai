@@ -9,7 +9,7 @@ function HeroHome() {
       {/* Illustration behind hero content */}
 
       {/* Hero content */}
-      <div className="pt-20 pb-12 md:pt-20 md:pb-20 mx-auto ">
+      <div className="pt-20  md:pt-20 md:pb-20 mx-auto ">
         <div className="md:grid md:grid-cols-12  mx-auto h-full md:h-[70vh]">
           <div className=" text-center  bg-[#FFFBF9]  max-w-xl md:max-w-none md:w-full mx-auto md:col-span-6 lg:col-span-6 mb-8 md:mb-0 md:order-1 aos-init -m-4">
             <div
@@ -30,7 +30,9 @@ function HeroHome() {
                 data-aos="zoom-y-out"
                 data-aos-delay="150"
               >
-               Whether you’re new to a city or looking to grow your social circle, Budding is a simplified way to join or host your favourite social events.
+                Whether you’re new to a city or looking to grow your social
+                circle, Budding is a simplified way to join or host your
+                favourite social events.
               </p>
 
               <WaitlistForm />
@@ -39,12 +41,12 @@ function HeroHome() {
           <div
             class="
             max-w-xl md:max-w-none md:w-full mx-auto md:col-span-6 lg:col-span-6 mb-8 md:mb-0 md:order-1 aos-init
-
           "
           >
             <img
               src={ss}
-              className="mx-auto h-3/4 px-10 md:h-[95vh]
+              className="mx-auto px-2 md:h-[95vh]
+            aspect-auto
             md:py-24
  flex items-center justify-center
             "

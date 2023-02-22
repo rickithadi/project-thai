@@ -10,14 +10,14 @@ function FeaturesBlocks() {
         {/* Illustration behind hero content */}
 
         {/* Hero content */}
-        <div className="md:pt-20 pb-12  md:pb-20 mx-auto ">
+        <div className="md:pt-20  md:pb-20 mx-auto ">
           <div className="md:grid md:grid-cols-12 mx-auto h-full md:h-[70vh]">
             <div
               className=" text-center
           max-w-xl md:max-w-none md:w-full mx-auto md:col-span-6 lg:col-span-6 mb-8 md:mb-0 md:order-1 aos-init -m-4"
             >
               <div
-                className=" px-10 md:py-32 pt-16
+                className=" px-10 md:py-32
             "
               >
                 <h2
@@ -45,11 +45,11 @@ function FeaturesBlocks() {
           </div>
         </div>
       </section>
-      <section className="relative bg-white z-20">
+      <section className="relative bg-white z-10">
         {/* Illustration behind hero content */}
 
         {/* Hero content */}
-        <div className=" pb-12  md:pb-20 mx-auto ">
+        <div className="  md:pt-20 md:pb-20 mx-auto ">
           <div className="grid md:grid-cols-12 mx-auto h-full md:h-[70vh]">
             <div class="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-6 lg:col-span-6 mb-8 md:mb-0 md:order-1 order-last aos-init">
               <img src={cover2} className="mx-auto " />
@@ -85,11 +85,11 @@ function FeaturesBlocks() {
           </div>
         </div>
       </section>
-      <section className="relative bg-white z-30">
+      <section className="relative bg-white z-20">
         {/* Illustration behind hero content */}
 
         {/* Hero content */}
-        <div className="md:pb-20 mx-auto ">
+        <div className="md:pt-20 md:pb-20 mx-auto ">
           <div className="md:grid md:grid-cols-12 mx-auto h-full md:h-[70vh]">
             <div
               className=" text-center
