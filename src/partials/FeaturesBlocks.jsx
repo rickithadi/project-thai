@@ -1,5 +1,4 @@
 import React from "react";
-import ss from "../images/ss.png";
 import cover1 from "../images/cover1.png";
 import cover2 from "../images/cover2.png";
 import cover3 from "../images/cover3.png";
