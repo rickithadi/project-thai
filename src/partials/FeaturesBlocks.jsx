@@ -89,7 +89,7 @@ function FeaturesBlocks() {
         {/* Illustration behind hero content */}
 
         {/* Hero content */}
-        <div className=" pb-12   md:pb-20 mx-auto ">
+        <div className="md:pb-20 mx-auto ">
           <div className="md:grid md:grid-cols-12 mx-auto h-full md:h-[70vh]">
             <div
               className=" text-center
@@ -118,7 +118,7 @@ function FeaturesBlocks() {
                 </p>
               </div>
             </div>
-            <div class="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-6 lg:col-span-6 mb-8 md:mb-0 md:order-1 aos-init">
+            <div class="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-6 lg:col-span-6 mb-0 md:order-1 aos-init">
               <img src={cover3} className="mx-auto " />
             </div>
           </div>
