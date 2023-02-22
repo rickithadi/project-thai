@@ -11,7 +11,9 @@ function HeroHome() {
       {/* Hero content */}
       <div className="pt-20  md:pt-20 md:pb-20 mx-auto ">
         <div className="md:grid md:grid-cols-12  mx-auto h-full md:h-[70vh]">
-          <div className=" text-center  bg-[#FFFBF9]  max-w-xl md:max-w-none md:w-full mx-auto md:col-span-6 lg:col-span-6 mb-8 md:mb-0 md:order-1 aos-init -m-4">
+          <div className=" text-center  bg-[#FFFBF9] max-w-xl md:max-w-none md:w-full mx-auto md:col-span-6 lg:col-span-6 mb-8 md:mb-0 md:order-1 aos-init
+          md:h-[80vh]
+          ">
             <div
               className=" px-10 md:py-32 pt-16
             "
@@ -45,9 +47,9 @@ function HeroHome() {
           >
             <img
               src={ss}
-              className="mx-auto px-2 md:h-[95vh]
+              className="mx-auto px-2 md:h-[85vh]
             aspect-auto
-            md:py-24
+            md:pb-24
  flex items-center justify-center
             "
             />

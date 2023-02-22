@@ -10,11 +10,11 @@ function FeaturesBlocks() {
         {/* Illustration behind hero content */}
 
         {/* Hero content */}
-        <div className="md:pt-20  md:pb-20 mx-auto ">
+        <div className="  md:pb-20 mx-auto ">
           <div className="md:grid md:grid-cols-12 mx-auto h-full md:h-[70vh]">
             <div
               className=" text-center
-          max-w-xl md:max-w-none md:w-full mx-auto md:col-span-6 lg:col-span-6 mb-8 md:mb-0 md:order-1 aos-init -m-4"
+          max-w-xl md:max-w-none md:w-full mx-auto md:col-span-6 lg:col-span-6 mb-8 md:mb-0 md:order-1 aos-init "
             >
               <div
                 className=" px-10 md:py-32
@@ -49,7 +49,7 @@ function FeaturesBlocks() {
         {/* Illustration behind hero content */}
 
         {/* Hero content */}
-        <div className="  md:pt-20 md:pb-20 mx-auto ">
+        <div className=" mx-auto ">
           <div className="grid md:grid-cols-12 mx-auto h-full md:h-[70vh]">
             <div class="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-6 lg:col-span-6 mb-8 md:mb-0 md:order-1 order-last aos-init">
               <img src={cover2} className="mx-auto " />
@@ -89,7 +89,7 @@ function FeaturesBlocks() {
         {/* Illustration behind hero content */}
 
         {/* Hero content */}
-        <div className="md:pt-20 md:pb-20 mx-auto ">
+        <div className=" mx-auto ">
           <div className="md:grid md:grid-cols-12 mx-auto h-full md:h-[70vh]">
             <div
               className=" text-center
