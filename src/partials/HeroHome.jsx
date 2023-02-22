@@ -30,9 +30,7 @@ function HeroHome() {
                 data-aos="zoom-y-out"
                 data-aos-delay="150"
               >
-                You are always surrounded by people who are looking for company,
-                just like you. But how do you find them? Download Budding and
-                swipe on the events you are up for.
+               Whether you’re new to a city or looking to grow your social circle, Budding is a simplified way to join or host your favourite social events.
               </p>
 
               <WaitlistForm />
